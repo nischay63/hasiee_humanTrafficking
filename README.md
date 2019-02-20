@@ -2,7 +2,7 @@
 Human Trafficking is one of the major concerns in the society. With the boom in Artificial Intelligence we propose a solution that exploits its high computational power to solve the issue.
 
 ## Proposed Solutions
-Since there are surveillance camera installed in almost every important part of the city. It can be leveraged to detect abnormal activities. We propose a Deep learning based solution which can analyze live feed of the camera in real time and further detect any kind of anamalous activity. Details such as location of the incident can be sent to nearest police stations and hospitals
+ We propose a Deep learning based solution which can analyze live feed of the camera in real time and further detect any kind of anamalous activity. Details such as location of the incident can be sent to nearest police stations and hospitals
 
 ## What is an anamalous activity?
 Any activity which differs from a normal activity above a calculated threshold can be marked as anamalous activity. For example - A busy road in delhi can be considered as a normal activity whereas riots or voilent activites on the same roads will be considered anamalous.
