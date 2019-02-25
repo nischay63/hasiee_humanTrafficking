@@ -15,7 +15,9 @@ We propose to use Generative Adversarial Nets (GANs) which are trained using nor
 
 ## Team
 Nischay Gupta
+
 Nikhil Iyer
+
 Saurabh Khandelwal
 
 ## Reference
