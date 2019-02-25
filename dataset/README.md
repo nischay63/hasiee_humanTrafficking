@@ -1,4 +1,4 @@
-#Dataset
+Dataset
 
 The dataset used will be USCD dataset for anomaly detection. 
 
