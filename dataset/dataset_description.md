@@ -1,4 +1,5 @@
 #Dataset
+
 The dataset used will be USCD dataset for anomaly detection. 
 
 The UCSD Anomaly Detection Dataset was acquired with a stationary camera mounted at an elevation, overlooking pedestrian walkways. The crowd density in the walkways was variable, ranging from sparse to very crowded. In the normal setting, the video contains only pedestrians. Abnormal events are due to either:
