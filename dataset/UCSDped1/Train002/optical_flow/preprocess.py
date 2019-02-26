@@ -36,8 +36,11 @@ def computeOpticalFlow(src_location,dest_location):
 		if k == 27:
 		    break
 	    
+	    kap = str(num)
+	    while(len(kap)) < 3:
+	    	kap = '0' + kap
 
-		cv.imwrite( str(num) + '.png',bgr)
+		cv.imwrite( kap + '.png',bgr)
 		prvs = next
 	
 	cv.destroyAllWindows()
@@ -57,5 +60,5 @@ if __name__ == "__main__":
 	# print ("Train list obtained")
 	
 	train_file = os.getcwd()[:95]
-
+	print(train_file)
 	computeOpticalFlow(train_file,"")
