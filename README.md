@@ -13,6 +13,15 @@ Lack of publically available videos/data on rape, human trafficking etc.
 ## Descriptive Solution
 We propose to use Generative Adversarial Nets (GANs) which are trained using normal frames and corresponding optical-flow images in order to learn an internal representation of the scene normality. Since our GANs are trained with only normal data, they are not able to generate abnormal events.  At testing time the real data is compared with both the appearance and the motion representations reconstructed by our GANs and abnormal areas are detected by computing local differences.
 
+## Run
+DCGAN can be run  by directly running the script
+
+python dcgan.py
+
+For running Cycle GAN test code running the following command
+
+cd pytorch-CycleGAN-and-pix2pix
+python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan
 ## Team
 Nischay Gupta
 
