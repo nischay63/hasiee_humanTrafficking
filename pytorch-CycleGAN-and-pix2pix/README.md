@@ -4,9 +4,6 @@
 <img src="https://junyanz.github.io/CycleGAN/images/teaser_high_res.jpg" width="800"/>
 
 
-**Pix2pix:  [Project](https://phillipi.github.io/pix2pix/) |  [Paper](https://arxiv.org/pdf/1611.07004.pdf) |  [Torch](https://github.com/phillipi/pix2pix)**
-
-
 ## Prerequisites
 - Linux or macOS
 - Python 3
@@ -24,11 +21,13 @@
 
 ### CycleGAN train/test
 - Train the model:
+```
 python train.py --dataroot ./data/ --name maps_cyclegan --model cycle_gan
-
+```
 To see more intermediate results, check out `./checkpoints/maps_cyclegan/web/index.html`.
 
 - Test the model:
+```
 python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan
 ```
 - The test results will be saved to a html file here: `./results/maps_cyclegan/latest_test/index.html`.
