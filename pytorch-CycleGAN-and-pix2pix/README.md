@@ -27,7 +27,7 @@ To see more intermediate results, check out `./checkpoints/maps_cyclegan/web/ind
 
 - Test the model:
 ```
-python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan
+python test.py --dataroot ./data/ --name maps_cyclegan --model cycle_gan
 ```
 - The test results will be saved to a html file here: `./results/maps_cyclegan/latest_test/index.html`.
 
