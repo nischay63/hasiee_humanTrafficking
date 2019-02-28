@@ -21,7 +21,9 @@ python dcgan.py
 For running Cycle GAN test code running the following command
 
 cd pytorch-CycleGAN-and-pix2pix
+
 python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan
+
 ## Team
 Nischay Gupta
 
