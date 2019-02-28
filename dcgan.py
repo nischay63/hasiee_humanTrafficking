@@ -77,12 +77,12 @@ class DCGAN():
         model = Sequential()
         
         model.add(Dense(1024,input_shape=noise_shape,activation = 'tanh'))
-        model.add(Dense(128*7*7))
+        model.add(Dense(128*79*119))
         model.add(BatchNormalization())
         model.add(Activation('tanh'))
-        model.add(Reshape((7,7,128),input_shape = (128*7*7,)))
-        model.add(UpSampling2D(size = (2,2)))
-        model.add(Conv2D(64,(5,5),padding = 'same',activation = 'tanh'))
+        model.add(Reshape((79,119,128),input_shape = (128*79*119,)))
+#         model.add(UpSampling2D(size = (2,2)))
+#         model.add(Conv2D(64,(5,5),padding = 'same',activation = 'tanh'))
         model.add(UpSampling2D(size = (2,2)))
         
         model.add(Conv2D(1,(5,5),padding = 'same',activation = 'tanh'))
@@ -107,11 +107,11 @@ class DCGAN():
    
     def load_data(self):
         print ("loading data from", os.getcwd())
-        IMAGE_PATH = 'C:\\Users\\papa\\Documents\\GitHub\\ABSA\\hasiee_humanTrafficking\\dataset\\UCSDped1\\A\\train'
+        IMAGE_PATH = os.getcwd() +  '/dataset/UCSDped1/A/train'
         file_paths = os.listdir(IMAGE_PATH)
         for i in file_paths:
             print (i)
-        images = [misc.imread(IMAGE_PATH +'\\' +path) for path in file_paths]
+        images = [misc.imread(IMAGE_PATH +'/' +path) for path in file_paths]
         images = np.asarray(images) 
         print (images.shape)
         #image_size = np.asarray([images.shape[1], images.shape[2], images.shape[3]])
