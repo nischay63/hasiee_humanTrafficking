@@ -1,5 +1,5 @@
 # hasiee_humanTrafficking
-Human Trafficking is one of the major concerns in the society. With the boom in Artificial Intelligence we propose a solution that exploits its high computational power to solve the issue. Winner of the Hackathon conducted at Tryst IIT-Delhi , 2019
+Human Trafficking is one of the major concerns in the society. With the boom in Artificial Intelligence we propose a solution that exploits its high computational power to solve the issue. **Winner of the Hackathon conducted at Tryst IIT-Delhi , 2019**
 
 ## Proposed Solutions
  We propose a Deep learning based solution which can analyze live feed of the camera in real time and further detect any kind of anamalous activity. Details such as location of the incident can be sent to nearest police stations and hospitals
